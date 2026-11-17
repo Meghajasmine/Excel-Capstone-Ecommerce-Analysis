@@ -4,11 +4,9 @@
 This project performs end-to-end data cleaning, relational table integration, statistical analysis, and interactive dashboard reporting on an E-Commerce Store dataset using Microsoft Excel. The dataset comprises 2,000 sales transactions across 500 customers, 100 products, and 20 stores spanning October 2023 to October 2025.
 
 ## Repository Structure
-- `Ecommerce_Sales_Capstone_Solution.xlsx` — Complete 7-worksheet Excel solution (`Executive Dashboard`, `Sales_Master_Cleaned`, `Customer_Dim`, `Product_Dim`, `Store_Dim`, `Pivot & Summary`, `Descriptive Statistics`).
+- `Ecommerce_Sales_Dataset_Solution.xlsx` — Complete 7-worksheet Excel solution (`Executive Dashboard`, `Sales_Master_Cleaned`, `Customer_Dim`, `Product_Dim`, `Store_Dim`, `Pivot & Summary`, `Descriptive Statistics`).
 - `Ecommerce_Sales_Dataset_updated.xlsx` — Raw source dataset.
 - `One_Page_Executive_Summary.docx` — One-page summary of key findings and strategic decisions.
-- `Data_Analyst_Project_Documentation.docx` — Full project documentation report with embedded visual evidence.
-- `screenshots/` — Step-by-step visuals covering data cleaning, XLOOKUP integration, descriptive statistics, and dashboard charts.
 
 ## Data Cleaning & Preprocessing Steps
 1. **Primary Key Standardization:** Standardized malformed IDs (`C-1464`, `C-1486`, `C-1491`, `C-1499` to `CUST####` and `P-3`, `P-16` to `PROD#`), restoring 100% lookup integrity across all 2,000 transactions.
